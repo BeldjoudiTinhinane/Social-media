@@ -3,7 +3,7 @@ import cors from 'cors';
 
 const app = express();
 app.get('/test', (req,res)=>{
-    res.send('hello w');
+    res.send('hello world');
 })
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
